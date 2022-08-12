@@ -1,2 +1,36 @@
 # linkedin_to_excel
-Exporte a sua lista de certificados para uma planilha Excel
+Exporte a sua lista de certificados do Linkedin para uma planilha Excel.
+
+## Objetivos
+1. Esse é um script feito em Python, serve para você obter a sua lista de certificados e licenças do LinkedIn em formato Excel (.xlsx).
+2. Tudo é realizado com apenas um click. Ao executar, o script faz tudo automaticamente (você não precisa estar logado no LinkedIn).  
+3. Útil para quando você precisa apresentar a sua lista de certificados em formato físico ou então precisa enviar a lista por e-mail.
+4. Recomendado para pessoas que possuam centenas de certificados no LinkedIn.
+5. Facilita a busca por certificados com código de verificação e sem código de verificação.
+
+## Estrutura
+1. A planilha é dividida em 04 (quatro) colunas: Certificado, Instituição, Data de Emissão e Código da Credencial.
+2. Caso o certificado não tenha código de verificação, é exibido o valor "Sem código" na célula respectiva.
+
+## Requisitos
+1. Ter o [Python](https://www.python.org/downloads/) instalado no computador.
+2. Ter as seguintes bibliotecas instaladas: [openpyxl](https://openpyxl.readthedocs.io/en/stable/), [selenium](https://selenium-python.readthedocs.io/), [pyperclip](https://pypi.org/project/pyperclip/), [pyautogui](https://pyautogui.readthedocs.io/en/latest/).
+
+## OBSERVAÇÕES
+1. Nenhuma informação pessoal do LinkedIn é repassada para servidores, o script é executado no sistema do usuário.
+2. O código é voltado para o site em português do LinkedIn (https://br.linkedin.com/). Não irá funcionar em outros idiomas.
+3. No LinkedIn, é necessário que sejam preenchidos todos os campos obrigatórios do certificado (nome, instituição, data de emissão), sendo opcional o código de verificação (pode deixar em branco). Sem essas informações, o código não irá funcionar corretamente e a planilha ficará desorganizada.
+4. É necessário alterar os campos de e-mail e senha no código, para poder acessar a sua conta no Linkedin e obter os nomes dos certificados.
+5. É necessário alterar o campo de número de certificado no código, para corresponder ao número total de certificados que você possui.
+6. Caso o código não execute alguma função no tempo certo, é possível alterar o tempo de espera entre cada comando para se adequar ao seu computador. Basta modificar o campo "sleep()" e colocar o valor númerico que deseja (em segundos) no espaço entre parênteses ( ). Ex: sleep(1) = 1 segundo, sleep(5) = 5 segundos. [Para mais informações](https://realpython.com/python-sleep/).
+7. O programa demora um pouco para executar todos os comandos, tenha paciência e aguarde até o script ser finalizado.
+8. Após finalizar a execução do script, serão gerados dois arquivos dentro da pasta do script: um arquivo em formato de texto ("testeselenium.txt") - onde os dados da página de certificado serão salvos, e a planilha com a lista de certificados - salva em formato xlsx ("lista_certificados.xlsx").
+9. O código ainda está em estágio de desenvolvimento, podem ocorrer bugs e outras falhas inesperadas.
+10. O código não está otimizado, fique livre para aprimorá-lo ou modificá-lo de acordo com as suas necessidades.
+
+## Próximas atualizações
+1. No momento, o script já funciona e executa o básico (obter a lista de certificados em uma planilha em formato xlsx), mas há possibilidade de melhoras, tanto no código, quanto na interface. Infelizmente, não há previsão de novas versões por enquanto.
+2. Adicionar a opção de obter dados de outras abas do LinkedIn (atividades, experiência, formação acadêmica, etc).
+3. Adicionar uma interface para o usuário digitar o seu e-mail e senha do LinkedIn, antes de executar o script.
+
+*Em desenvolvimento...*
