@@ -33,5 +33,6 @@ Exporte a sua lista de certificados do Linkedin para uma planilha Excel.
 2. Adicionar a opção de obter dados de outras abas do LinkedIn (atividades, experiência, formação acadêmica, etc).
 3. Adicionar uma interface para o usuário digitar o seu e-mail e senha do LinkedIn, antes de executar o script.
 4. Mostrar em gráfico a quantidade de certificados, por instituição.
+5. Adicionar suporte para outros idiomas.
 
 *Em desenvolvimento...*
