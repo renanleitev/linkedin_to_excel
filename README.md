@@ -2,10 +2,10 @@
 Exporte a sua lista de certificados do Linkedin para uma planilha Excel.
 
 ## Objetivos
-1. Esse é um script feito em Python, serve para você obter a sua lista de certificados e licenças do LinkedIn em formato Excel (.xlsx).
+1. Script feito em Python, serve para você obter a sua lista de certificados e licenças do LinkedIn em formato Excel (.xlsx).
 2. Tudo é realizado com apenas um click. Ao executar, o script faz tudo automaticamente (você não precisa estar logado no LinkedIn).  
 3. Útil para quando você precisa apresentar a sua lista de certificados em formato físico ou então precisa enviar a lista por e-mail.
-4. Recomendado para pessoas que possuam centenas de certificados no LinkedIn.
+4. Recomendado para pessoas que possuam centenas de certificados no LinkedIn ou que desejam classificar os certificados por instituição.
 5. Facilita a busca por certificados com código de verificação e sem código de verificação.
 
 ## Estrutura
