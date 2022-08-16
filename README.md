@@ -21,7 +21,7 @@ Exporte a sua lista de certificados do Linkedin para uma planilha Excel.
 2. O código é voltado para o site em português do LinkedIn (https://br.linkedin.com/). Não irá funcionar em outros idiomas.
 3. No LinkedIn, é necessário que sejam preenchidos todos os campos obrigatórios do certificado (nome, instituição, data de emissão), sendo opcional o código de verificação (pode deixar em branco). Sem essas informações, o código não irá funcionar corretamente e a planilha ficará desorganizada.
 4. É necessário alterar os campos de e-mail e senha no código, para poder acessar a sua conta no Linkedin e obter os nomes dos certificados.
-5. É necessário alterar o campo de número de certificado no código, para corresponder ao número total de certificados que você possui.
+5. Tambem é necessário alterar o campo de número de certificado no código, para corresponder ao número total de certificados que você possui.
 6. Caso o código não execute alguma função no tempo certo, é possível alterar o tempo de espera entre cada comando para se adequar ao seu computador. Basta modificar o campo "sleep()" e colocar o valor númerico que deseja (em segundos) no espaço entre parênteses ( ). Ex: sleep(1) = 1 segundo. [Sobre sleep](https://realpython.com/python-sleep/).
 7. O programa demora um pouco para executar todos os comandos, tenha paciência e aguarde até o script ser finalizado. Se tudo ocorrer bem, irá aparecer ao final a mensagem "Excel gerado com sucesso".
 8. Em alguns casos, o LinkedIn costuma exigir um código de verificação ao tentar logar no site. Caso isso aconteça, resolva essa etapa de verificação, feche o navegador e reinicie o script, para poder gerar a planilha corretamente.
